@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(68, 17, 17);
+    margin: 2rem auto;
+    font-size: 3rem;
+}
+
+.report-wrapper{
+    width:60%;
+    height:50%;
+    background-color: bisque;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding:2rem;
+    border-radius: 10px;
+    min-height: 30rem;
+}
+.label-tag {
+    text-align: center;
+    font-size:3em;
+    margin-bottom: 2rem;
+    
+}
+.city-input{
+    max-width: 40%;
+    outline: none;
+    font-size: 2rem;
+    margin: auto;
+    border:none;
+    padding :0.5rem 1rem;
+    border-radius: 10px;
+}
+.form-content{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.degree{
+    font-size: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    text-shadow: 4px 4px black;
+}
+
+.weather-desc{
+    font-size: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -1px 0 white, 0 5px white, 5px 0 white, 0 -1px white;
+    
+}
+
+.icon-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
